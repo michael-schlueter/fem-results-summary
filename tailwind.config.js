@@ -21,7 +21,8 @@ export default {
       },
       fontSize: {
         "3.5xl": ["32px", "auto"],
-      }
+        "5.5xl": ["56px", "72px"],
+      },
     },
   },
   plugins: [],
