@@ -13,27 +13,75 @@ function App() {
             Your performance exceeds 65% of the people conducting the test here!
           </p>
         </section>
-        <section>
-          <h3>Summary</h3>
-          <ul>
-            <li>
-              <span>Reaction</span>
-              <span>80 / 100</span>
+        <section className="flex flex-col gap-6 pt-6 pb-[30px] px-[30px]">
+          <h3 className="text-lg font-bold text-dark-gray-blue">Summary</h3>
+          <ul className="flex flex-col gap-4">
+            <li className="flex justify-between rounded-xl bg-light-red/5 p-4">
+              <div>
+                <img
+                  className="inline mr-3"
+                  src="/public/images/icon-reaction.svg"
+                  alt="icon reaction result"
+                />
+                <span className="text-light-red">Reaction</span>
+              </div>
+              <div>
+                <span className="font-bold text-dark-gray-blue mr-[8px]">
+                  80
+                </span>
+                <span className="font-bold text-dark-gray-blue/50">/ 100</span>
+              </div>
             </li>
-            <li>
-              <span>Memory</span>
-              <span>92 / 100</span>
+            <li className="flex justify-between rounded-xl bg-organgey-yellow/5 p-4">
+              <div>
+                <img
+                  className="inline mr-3"
+                  src="/public/images/icon-memory.svg"
+                  alt="icon memory result"
+                />
+                <span className="text-organgey-yellow">Memory</span>
+              </div>
+              <div>
+                <span className="font-bold text-dark-gray-blue mr-[8px]">
+                  92
+                </span>
+                <span className="font-bold text-dark-gray-blue/50">/ 100</span>
+              </div>
             </li>
-            <li>
-              <span>Verbal</span>
-              <span>61 / 100</span>
+            <li className="flex justify-between rounded-xl bg-green-teal/5 p-4">
+              <div>
+                <img
+                  className="inline mr-3"
+                  src="/public/images/icon-verbal.svg"
+                  alt="icon verbal result"
+                />
+                <span className="text-green-teal">Verbal</span>
+              </div>
+              <div>
+                <span className="font-bold text-dark-gray-blue mr-[8px]">
+                  61
+                </span>
+                <span className="font-bold text-dark-gray-blue/50">/ 100</span>
+              </div>
             </li>
-            <li>
-              <span>Reaction</span>
-              <span>73 / 100</span>
+            <li className="flex justify-between rounded-xl bg-cobalt-blue/5 p-4">
+              <div>
+                <img
+                  className="inline mr-3"
+                  src="/public/images/icon-visual.svg"
+                  alt="icon visual result"
+                />
+                <span className="text-cobalt-blue">Visual</span>
+              </div>
+              <div>
+                <span className="font-bold text-dark-gray-blue mr-[8px]">
+                  73
+                </span>
+                <span className="font-bold text-dark-gray-blue/50">/ 100</span>
+              </div>
             </li>
           </ul>
-          <button>Continue</button>
+          <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold py-4 px-[120px]">Continue</button>
         </section>
       </div>
     </div>
