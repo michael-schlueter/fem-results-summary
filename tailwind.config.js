@@ -23,6 +23,9 @@ export default {
         "3.5xl": ["32px", "auto"],
         "5.5xl": ["56px", "72px"],
       },
+      boxShadow: {
+        custom: "0 30px 60px rgba(61, 108, 236, 0.15)",
+      },
     },
   },
   plugins: [],

@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="w-full min-h-screen md:flex md:justify-center md:items-center">
-      <div className="md:flex md:justify-center max-w-[736px]">
+      <div className="md:flex md:justify-center max-w-[736px] md:rounded-[32px] md:shadow-custom">
         <section className="flex flex-col text-center bg-gradient-to-t rounded-b-[32px] md:rounded-[32px] md:pt-[38px] from-light-royal-blue to-light-slate-blue md:max-w-[50%] md:px-12">
           <h1 className="text-light-lavender text-lg md:text-2xl mt-6 md:mt-0">
             Your Result
