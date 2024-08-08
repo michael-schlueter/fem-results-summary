@@ -89,7 +89,7 @@ function App() {
               </div>
             </li>
           </ul>
-          <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold py-4 px-[120px] md:text-lg md:focus-visible:bg-gradient-to-t md:focus:from-light-royal-blue md:focus:to-violet-blue md:mt-[41px]">
+          <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold py-4 px-[120px] md:text-lg outline-none md:focus-visible:bg-gradient-to-t md:focus-visible:from-light-royal-blue md:focus-visible:to-light-slate-blue md:mt-[41px]">
             Continue
           </button>
         </section>
