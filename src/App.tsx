@@ -7,9 +7,9 @@ function App() {
   );
 
   return (
-    <div className="w-full min-h-screen flex flex-col justify-center items-center">
-      <main className="grid grid-cols-[minmax(auto, 736px)] md:grid-cols-[minmax(auto,375px)_minmax(auto,375px)] md:grid-rows-[1fr] md:rounded-[32px] md:shadow-custom">
-        <section className="grid place-items-center text-center bg-gradient-to-t rounded-b-[32px] md:rounded-[32px] p-12 pt-6 md:pt-12 from-light-royal-blue to-light-slate-blue">
+    <div className="min-h-screen flex flex-col justify-center items-center">
+      <main className="grid grid-cols-[minmax(auto, 736px)] md:grid-cols-[minmax(auto,368px)_minmax(auto,368px)] md:grid-rows-[1fr] md:rounded-[32px] md:shadow-custom">
+        <section className="grid place-items-center text-center bg-gradient-to-t rounded-b-[32px] md:rounded-[32px] p-14 pt-6 pb-0 md:pt-12 from-light-royal-blue to-light-slate-blue">
           <h1 className="text-light-lavender text-lg md:text-2xl">Your Result</h1>
           <div className="w-[140px] h-[140px] md:w-[200px] md:h-[200px] my-6 mx-auto flex flex-col justify-center items-center rounded-full bg-gradient-to-t from-persian-blue to-violet-blue">
             <span className="text-white text-5.5xl md:text-7xl font-extrabold">
@@ -17,7 +17,7 @@ function App() {
             </span>
             <span className="text-light-lavender/50 md:text-lg">of 100</span>
           </div>
-          <h2 className="text-white text-2xl md:text-3.5xl font-bold mb-6">
+          <h2 className="text-white text-2xl md:text-3.5xl font-bold">
             Great{" "}
           </h2>
           <p className="max-w-[260px] md:max-w-none text-light-lavender md:text-lg mt-2 md:mt-[14px] mx-auto mb-10">
