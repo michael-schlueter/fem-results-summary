@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">
       <main className="grid grid-cols-[minmax(auto, 736px)] md:grid-cols-[minmax(auto,368px)_minmax(auto,368px)] md:grid-rows-[1fr] md:rounded-[32px] md:shadow-custom">
-        <section className="grid place-items-center text-center bg-gradient-to-t rounded-b-[32px] md:rounded-[32px] p-14 pt-6 pb-0 md:pt-12 from-light-royal-blue to-light-slate-blue">
+        <section className="grid place-items-center text-center bg-gradient-to-t rounded-b-[32px] md:rounded-[32px] p-14 pt-6 pb-0 md:pt-10 from-light-royal-blue to-light-slate-blue">
           <h1 className="text-light-lavender text-lg md:text-2xl">Your Result</h1>
           <div className="w-[140px] h-[140px] md:w-[200px] md:h-[200px] my-6 mx-auto flex flex-col justify-center items-center rounded-full bg-gradient-to-t from-persian-blue to-violet-blue">
             <span className="text-white text-5.5xl md:text-7xl font-extrabold">
@@ -24,16 +24,16 @@ function App() {
             Your performance exceeds 65% of the people conducting the test here!
           </p>
         </section>
-        <section className="p-6 md:p-12">
+        <section className="p-6 md:p-10">
           <h3 className="text-lg md:text-2xl font-bold text-dark-gray-blue">
             Summary
           </h3>
-          <ul className="grid gap-4 my-6 mx-0">
+          <ul className="grid gap-4 my-6 mx-0 md:mb-10">
             {data.map((item, index) => (
               <li
                 key={index}
                 className={clsx(
-                  "flex justify-between rounded-xl p-4 md:text-lg",
+                  "flex items-center justify-between rounded-xl p-[14px] md:text-lg",
                   {
                     "bg-light-red/5": item.category === "Reaction",
                     "bg-organgey-yellow/5": item.category === "Memory",
@@ -42,7 +42,7 @@ function App() {
                   }
                 )}
               >
-                <div>
+                <div className="flex items-center">
                   <img
                     className="inline mr-3"
                     src={item.icon}
@@ -70,7 +70,7 @@ function App() {
               </li>
             ))}
           </ul>
-          <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold w-full py-3 px-0 md:text-lg outline-none border-none cursor-pointer md:focus-visible:bg-gradient-to-t md:focus-visible:from-light-royal-blue md:focus-visible:to-light-slate-blue">
+          <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold w-full py-3 px-0 md:text-lg outline-none border-none cursor-pointer md:focus-visible:bg-gradient-to-t md:focus-visible:from-light-royal-blue md:focus-visible:to-light-slate-blue md:mb-2">
             Continue
           </button>
         </section>
