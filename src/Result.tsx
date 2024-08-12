@@ -15,8 +15,8 @@ export default function Result() {
         <span className="text-light-lavender/50 md:text-lg">of 100</span>
       </div>
       <h2 className="text-white text-2xl md:text-3.5xl font-bold">Great </h2>
-      <p className="max-w-[260px] md:max-w-none text-light-lavender md:text-lg mt-2 md:mt-[14px] mx-auto mb-10">
-        Your performance exceeds 65% of the people conducting the test here!
+      <p className="max-w-[260px] md:max-w-none text-light-lavender md:text-lg md:leading-tight mt-2 md:mt-[14px] mx-auto mb-10">
+        You scored higher than 65% of the people who have taken these tests.
       </p>
     </section>
   );
