@@ -47,7 +47,7 @@ export default function Summary() {
           </li>
         ))}
       </ul>
-      <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold w-full py-3 px-0 md:text-lg outline-none border-none cursor-pointer md:focus-visible:bg-gradient-to-t md:focus-visible:from-light-royal-blue md:focus-visible:to-light-slate-blue md:mb-2">
+      <button className="rounded-[128px] bg-dark-gray-blue text-white font-bold w-full py-3 px-0 md:text-lg outline-none border-none cursor-pointer md:focus-visible:bg-gradient-to-t md:focus-visible:from-light-royal-blue md:focus-visible:to-light-slate-blue md:hover:bg-gradient-to-t md:hover:from-light-royal-blue md:hover:to-light-slate-blue md:mb-2">
         Continue
       </button>
     </section>
